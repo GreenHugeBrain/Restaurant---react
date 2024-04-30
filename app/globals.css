@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth !important;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 html:not([data-scroll="0"]) .navbar {
   position: fixed;
   top: 0;
